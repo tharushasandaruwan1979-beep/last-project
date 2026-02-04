@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaming Dark Tharu</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #0b0b0f;
+      color: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)),
+        url('banner.jpg') center/cover no-repeat;
+      padding: 120px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ff2e2e;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      margin-top: 15px;
+      color: #cccccc;
+    }
+
+    /* Buttons Style */
+    .btns a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 20px 10px;
+      padding: 12px 25px;
+      border: 2px solid #ff2e2e;
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+      font-size: 15px;
+      border-radius: 8px;
+    }
+
+    .btns a:hover {
+      background: #ff2e2e;
+    }
+
+    /* Logo Icon Size */
+    .btns img {
+      width: 22px;
+      height: 22px;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #ff2e2e;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #14141c;
+      padding: 25px;
+      border: 1px solid #222;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    footer {
+      background: #050508;
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>GAMING DARK THARU</h1>
+    <p>Livestream | Vlog | Gaming Tips</p>
+
+    <!-- Buttons with Logos -->
+    <div class="btns">
+
+      <!-- YouTube Button -->
+      <a href="https://www.youtube.com/@GAMINGDARKTHARU" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        YouTube Channel
+      </a>
+
+      <!-- TikTok Button -->
+      <a href="https://www.tiktok.com/@darktharu_shark" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+        TikTok Profile
+      </a>
+
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section>
+    <h2>About Brand</h2>
+    <p>
+      Gaming Dark Tharu is a Sri Lankan gaming content brand focused on livestreams,
+      gameplays, vlogs and creator tips. Built with passion, consistency and a dark gaming aesthetic.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section>
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">🎮 Gaming Livestreams</div>
+      <div class="card">📹 YouTube Gaming Content</div>
+      <div class="card">🔥 TikTok Short Gaming Clips</div>
+      <div class="card">💡 Gaming Tips & Tricks</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section>
+    <h2>Contact</h2>
+    <p>For collaborations & promotions</p>
+    <p>Email: <strong>darktharu@gmail.com</strong></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 Gaming Dark Tharu | Dark Gaming Business Website
+  </footer>
+
+</body>
+</html>
